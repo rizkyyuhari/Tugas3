@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D KALKULATOR</title>
+	<script type="text/javascript"> var person = prompt("Please Enter Your Name")</script>
+  
+</head>
+<body>
+
+<h1 class ="header" id="greet"></h1>
+<h2>Web ini Adalah hanya 3D Kalkulator Basis Web Sederhana yang hanya menggunakan HTML & JAVASCRIPT <br></h2>
+<br><br><br>
+
+
+<h2>Hitung Silinder</h2>
+	<form id='silform'>
+   		 <div>
+         	<label for="siljari" >Jari-jari Silinder (Meter) </label>
+			<input type="text"  id="siljari" >
+		</div>
+		<div class="mb-3">
+			<label for="silting" >Tinggi Silinder (Meter)</label>
+			<input type="text"  id="silting">
+		</div>
+		<div >
+			<h3 id="hslsil">
+
+            </h3>
+		</div>
+		<button type="submit">Hitung</button>
+	</form>
+
+
+<h2>Hitung Kerucut</h2>
+    <form id='htgker'>
+		<div>
+			<label for="jarikeru" >Jari-jari Kerucut (Meter) </label>
+        	<input type="text" id="jarikeru" >
+		</div>
+		<div>
+			<label for="gariskeru" >Garis Pelukis Kerucut (Meter) </label>
+			<input type="text" id="gariskeru" >
+		</div>
+		<div >
+			<label for="tingker" >Tinggi Kerucut (Meter)</label>
+			<input type="text"  id="tingker">
+		</div>
+		<div >
+			<h2 id="hslker">
+
+			</h2>
+		</div>
+		<button type="submit">Hitung</button>
+	</form>
+
+
+
+
+
+<h2>Hitung Bola</h2>
+    <form id='htgbol'>
+		<div>
+			<label for="jaribl" >Jari-jari Bola (Meter) </label>
+			<input type="text"  id="jaribl" >
+		</div>
+		<div>
+			<h2 id="hslblo"></h2>
+		</div>
+		<button type="submit">Hitung</button>
+	</form>
+
+<script src = "script.js"></script>
+</body>
+</html>
